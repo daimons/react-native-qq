@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-  compileSdkVersion 23
-  buildToolsVersion "23.0.1"
+  compileSdkVersion 26
+  buildToolsVersion "26.0.2"
 
   defaultConfig {
     minSdkVersion 16
-    targetSdkVersion 22
+    targetSdkVersion 26
     versionCode 1
     versionName "1.0"
     ndk {
@@ -27,4 +27,3 @@ dependencies {
   compile 'com.facebook.react:react-native:+'
   compile files('libs/open_sdk_r5793_lite.jar')
 }
-
